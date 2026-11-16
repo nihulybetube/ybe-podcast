@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>שיעורים לחנוכה</title>
+<link>https://nihulybetube.github.io/ybe-podcast</link>
+<atom:link href="https://nihulybetube.github.io/ybe-podcast/hanukkah/feed.xml" rel="self" type="application/rss+xml"/>
+<description>שיעורים לחנוכה מבית ישיבת בית אל.</description>
+<language>he</language>
+<copyright>ישיבת בית אל</copyright>
+<itunes:author>ישיבת בית אל</itunes:author>
+<itunes:summary>שיעורים לחנוכה מבית ישיבת בית אל.</itunes:summary>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<itunes:owner><itunes:name>ישיבת בית אל</itunes:name><itunes:email>nihulybetube@gmail.com</itunes:email></itunes:owner>
+<itunes:image href="https://nihulybetube.github.io/ybe-podcast/hanukkah/cover.jpg"/>
+<image><url>https://nihulybetube.github.io/ybe-podcast/hanukkah/cover.jpg</url><title>שיעורים לחנוכה</title><link>https://nihulybetube.github.io/ybe-podcast</link></image>
+<itunes:category text="Religion &amp; Spirituality"><itunes:category text="Judaism"/></itunes:category>
+</channel>
+</rss>
