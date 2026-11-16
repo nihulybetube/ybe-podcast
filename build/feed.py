@@ -62,6 +62,8 @@ def build_feed(series, episodes, now_utc):
         w("<pubDate>%s</pubDate>" % pub)
         w("<enclosure url=%s length=\"%d\" type=\"audio/mpeg\"/>" % (quoteattr(url), e["size"]))
         w("<itunes:duration>%d</itunes:duration>" % int(e["duration"]))
+        if e.get("cover"):
+            w("<itunes:image href=%s/>" % quoteattr("%s/%s/%s" % (base, sid, e["cover"])))
         w("<itunes:explicit>false</itunes:explicit>")
         w("<itunes:episodeType>full</itunes:episodeType>")
         w("</item>")

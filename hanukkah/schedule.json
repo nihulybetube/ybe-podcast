@@ -8,7 +8,8 @@
   "size": 34985263,
   "file": "w_RieHsGZE4.mp3",
   "pl_index": 22,
-  "release_at": "2026-11-16T20:28:08Z"
+  "release_at": "2026-11-16T20:28:08Z",
+  "cover": "covers/w_RieHsGZE4.jpg"
  },
  {
   "id": "e2CE1VU9_pE",
@@ -19,7 +20,8 @@
   "size": 28223040,
   "file": "e2CE1VU9_pE.mp3",
   "pl_index": 15,
-  "release_at": "2026-11-17T17:30:00Z"
+  "release_at": "2026-11-17T17:30:00Z",
+  "cover": "covers/e2CE1VU9_pE.jpg"
  },
  {
   "id": "vrwaKGbD12o",
@@ -30,7 +32,8 @@
   "size": 22332358,
   "file": "vrwaKGbD12o.mp3",
   "pl_index": 21,
-  "release_at": "2026-11-18T17:30:00Z"
+  "release_at": "2026-11-18T17:30:00Z",
+  "cover": "covers/vrwaKGbD12o.jpg"
  },
  {
   "id": "kxCDSf5366Q",
@@ -41,7 +44,8 @@
   "size": 17551934,
   "file": "kxCDSf5366Q.mp3",
   "pl_index": 17,
-  "release_at": "2026-11-19T17:30:00Z"
+  "release_at": "2026-11-19T17:30:00Z",
+  "cover": "covers/kxCDSf5366Q.jpg"
  },
  {
   "id": "1AajpBqZ4BM",
@@ -52,6 +56,7 @@
   "size": 17638861,
   "file": "1AajpBqZ4BM.mp3",
   "pl_index": 5,
-  "release_at": "2026-11-21T19:00:00Z"
+  "release_at": "2026-11-21T19:00:00Z",
+  "cover": "covers/1AajpBqZ4BM.jpg"
  }
 ]
