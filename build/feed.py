@@ -55,7 +55,9 @@ def build_feed(series, episodes, now_utc):
         url = "%s/%s/audio/%s" % (base, sid, e["file"])
         pub = format_datetime(parse_utc(e["release_at"]))
         desc = e.get("description", "")
-        if series.get("footer"):
+        # our "now on Spotify" line is added only when the YouTube description does not already mention Spotify
+        skip = [k.lower() for k in series.get("footer_skip_if_contains", ["ספוטיפיי", "spotify"])]
+        if series.get("footer") and not any(k in desc.lower() for k in skip):
             desc = (desc + "\n\n---\n" + series["footer"]).strip()
         w("<item>")
         w("<title>%s</title>" % escape(e["title"]))
