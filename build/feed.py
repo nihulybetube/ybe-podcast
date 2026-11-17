@@ -55,6 +55,8 @@ def build_feed(series, episodes, now_utc):
         url = "%s/%s/audio/%s" % (base, sid, e["file"])
         pub = format_datetime(parse_utc(e["release_at"]))
         desc = e.get("description", "")
+        if series.get("footer"):
+            desc = (desc + "\n\n---\n" + series["footer"]).strip()
         w("<item>")
         w("<title>%s</title>" % escape(e["title"]))
         w("<description><![CDATA[%s]]></description>" % desc.replace("]]>", "]]]]><![CDATA[>"))
