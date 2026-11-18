@@ -52,7 +52,7 @@ def build_feed(series, episodes, now_utc):
       % (escape("%s/%s/cover.jpg" % (base, sid)), escape(series["title"]), escape(series.get("link", base))))
     w('<itunes:category text="Religion &amp; Spirituality"><itunes:category text="Judaism"/></itunes:category>')
     for e in live:
-        url = "%s/%s/audio/%s" % (base, sid, e["file"])
+        url = e.get("audio_url") or "%s/%s/audio/%s" % (base, sid, e["file"])      # Release asset, or the Pages site
         pub = format_datetime(parse_utc(e["release_at"]))
         desc = e.get("description", "")
         # our "now on Spotify" line is added only when the YouTube description does not already mention Spotify
