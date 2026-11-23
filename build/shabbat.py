@@ -5,6 +5,8 @@ Fixed clock times, as he decided (NOT candle-lighting times):
 Blocked days: every Saturday + the Israeli Yom-Tov days: Rosh Hashana (1-2 Tishrei), Yom Kippur (10 Tishrei),
 Sukkot (15 Tishrei), Shemini Atzeret/Simchat Torah (22 Tishrei), Pesach 1 (15 Nisan), Pesach 7 (21 Nisan), Shavuot (6 Sivan).
 Chol hamoed and Chanukah are NOT blocked. A Shabbat next to a chag joins into one continuous range.
+Podcast addition (user, 2026-11-24): Purim (14 Adar) and its eve (13 Adar) are blocked for the WHOLE calendar day
+(00:00-24:00). Shushan Purim and everything else stay as above.
 """
 import datetime as dt
 import os
@@ -53,6 +55,9 @@ def _holidays(y):
         d(21): "שמיני עצרת / שמחת תורה",
         pesach: "פסח (יום ראשון)", pesach + dt.timedelta(days=6): "שביעי של פסח",
         pesach + dt.timedelta(days=50): "שבועות",
+        # Purim (14 Adar / Adar II) is exactly 30 days before 15 Nisan; its eve (13 Adar) one day earlier.
+        # Podcast rule (user, 2026-11-24): both are blocked for the WHOLE calendar day (00:00-24:00), not from 16:00 the day before.
+        pesach - dt.timedelta(days=30): "פורים", pesach - dt.timedelta(days=31): "ערב פורים",
     }
     _cache[y] = m
     return m
@@ -68,7 +73,12 @@ def block_name(day):
     return "שבת" if day.weekday() == 5 else None
 
 
+FULL_DAY = ("פורים", "ערב פורים")      # blocked 00:00-24:00 of that day; everything else: 16:00 the day before -> 21:00
+
+
 def _interval(day):
+    if block_name(day) in FULL_DAY:
+        return (dt.datetime.combine(day, dt.time(0)), dt.datetime.combine(day + dt.timedelta(days=1), dt.time(0)))
     return (dt.datetime.combine(day - dt.timedelta(days=1), dt.time(START_HOUR)),
             dt.datetime.combine(day, dt.time(END_HOUR)))
 
@@ -83,6 +93,7 @@ def blocked(at=None):
     at = at or now()
     names, end = [], None
     for k in (0, 1):                       # the block day is today or tomorrow (the evening before)
+        # (a full-day block like Purim is found with k=0; its interval is checked below)
         day = at.date() + dt.timedelta(days=k)
         n = block_name(day)
         if n:
@@ -94,13 +105,18 @@ def blocked(at=None):
         return None
     # extend through adjacent block days (Shabbat after a chag, chag after Shabbat, 2-day chag)
     while True:
-        day = end.date() + dt.timedelta(days=1)
-        n = block_name(day)
-        a, b = _interval(day)
-        if n and a <= end:                 # the next range already started before this one ended
-            end = b
-            names.append(n)
-        else:
+        grown = False
+        for day in (end.date(), end.date() + dt.timedelta(days=1)):
+            n = block_name(day)
+            if not n:
+                continue
+            a, b = _interval(day)
+            if a <= end < b:               # that range already started before this one ended
+                end = b
+                names.append(n)
+                grown = True
+                break
+        if not grown:
             break
     seen = []
     for n in names:
