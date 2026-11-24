@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>יסודות הש"ס | הרב דוד זאגא</title>
+<link>https://nihulybetube.github.io/ybe-podcast</link>
+<atom:link href="https://nihulybetube.github.io/ybe-podcast/yesodot-hashas/feed.xml" rel="self" type="application/rss+xml"/>
+<description>בכל שיעור הרב מבאר מנתח ומגדיר מושגים וכללים שונים ויסודיים ברחבי הש"ס, בנושאים מגוונים.</description>
+<language>he</language>
+<copyright>ישיבת בית אל</copyright>
+<itunes:author>ישיבת בית אל</itunes:author>
+<itunes:summary>בכל שיעור הרב מבאר מנתח ומגדיר מושגים וכללים שונים ויסודיים ברחבי הש"ס, בנושאים מגוונים.</itunes:summary>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<itunes:owner><itunes:name>ישיבת בית אל</itunes:name><itunes:email>nihulybetube@gmail.com</itunes:email></itunes:owner>
+<itunes:image href="https://nihulybetube.github.io/ybe-podcast/yesodot-hashas/cover.jpg"/>
+<image><url>https://nihulybetube.github.io/ybe-podcast/yesodot-hashas/cover.jpg</url><title>יסודות הש"ס | הרב דוד זאגא</title><link>https://nihulybetube.github.io/ybe-podcast</link></image>
+<itunes:category text="Religion &amp; Spirituality"><itunes:category text="Judaism"/></itunes:category>
+<item>
+<title>פתיחה למסכת יומא | יסודות הש"ס | הרב דוד זאגא</title>
+<description><![CDATA[מרכזיותו של סדר העבודה ביוה"כ, ומשמעותו כדרך ההקרבה לה' או כדרך הקירבה אליו. הכפרה ביום הכיפורים, על החטאים ועל מקדש וקודשיו, ובמה נתייחד חטא זה. התענית ביוה"כ כהקרבה עצמית לעומת הקרבת קרבנות. מעלתו של הפרק השמיני במסכת העוסק בתענית ביחס לשאר הפרקים העוסקים במקדש וקודשיו.
+
+---
+הישיבה הגבוהה בבית אל בראשות הרה"ג זלמן מלמד שליט"א מחנכת את תלמידיה לאור משנתו של מרן הרב אברהם יצחק הכהן קוק והרב צבי יהודה זצ"ל, בהדגשת ערכי הנצח של עם ישראל, תורת ישראל וארץ ישראל, כחטיבה אחת מאוחדת. דרכה של הישיבה ידועה באמונה וביטחון בבורא עולם ובדרך גאולתנו, ומתוך כך בהתאם לאמת ולהוראת חז"ל – "עין טובה" על כל עם ישראל ועל מעשי ה', יחד עם עשיה שמחה ונמרצת לקרוב הגאולה בדרך של חיוביות ולכתחילה.
+
+בערוץ זה תוכלו למצוא באופן קבוע מגוון עצום של שיעורים הניתנים מפי רבני הישיבה בגמרא ובהלכה, שיעורי אמונה ומחשבה, ושיחות לפרשת השבוע.
+
+לערוץ הישן, בו נמצאים עוד שיעורים רבים: https://www.youtube.com/channel/UCbo8mGyJcI6y9X8QqLUExxg
+---
+מוזמנים להתחבר ולהעמיק בתורת ישיבת בית אל:
+
+אתר הישיבה: https://www.ybe.org.il
+לעוד אלפי שיעורים: https://www.yeshiva.org.il/midrash
+
+בנוסף, עקבו אחרינו, לחצו על הפעמון 🔔 כדי לקבל התראה בכל פעם שעולה שיעור חדש, והיו שותפים בהפצת התורה!
+---
+#ישיבת_בית_אל #שיעור_תורה #הרב_קוק #אמונה #פרשת_השבוע #תורה #גמרא #הרב_זלמן_מלמד #הרב_צבי_יהודה
+
+לצפייה בשיעור ביוטיוב: https://www.youtube.com/watch?v=PbmhUMnMww0
+
+---
+מעכשיו אנחנו גם בספוטיפיי! חפשו אותנו: ישיבת בית אל.]]></description>
+<guid isPermaLink="false">PbmhUMnMww0</guid>
+<pubDate>Tue, 24 Nov 2026 15:00:08 +0000</pubDate>
+<enclosure url="https://github.com/nihulybetube/ybe-podcast/releases/download/yesodot-hashas-audio/PbmhUMnMww0.mp3" length="17053912" type="audio/mpeg"/>
+<itunes:duration>2132</itunes:duration>
+<itunes:image href="https://nihulybetube.github.io/ybe-podcast/yesodot-hashas/covers/PbmhUMnMww0.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+<itunes:episodeType>full</itunes:episodeType>
+</item>
+</channel>
+</rss>
