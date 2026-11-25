@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>שיעורים במסילת ישרים | ראש הישיבה הרב זלמן מלמד</title>
+<link>https://nihulybetube.github.io/ybe-podcast</link>
+<atom:link href="https://nihulybetube.github.io/ybe-podcast/bmsylt-yshrym/feed.xml" rel="self" type="application/rss+xml"/>
+<description>שיעורים בספר מסילת ישרים, שהועברו בישיבה ע"י ראש הישיבה הרב זלמן מלמד שליט"א</description>
+<language>he</language>
+<copyright>ישיבת בית אל</copyright>
+<itunes:author>ישיבת בית אל</itunes:author>
+<itunes:summary>שיעורים בספר מסילת ישרים, שהועברו בישיבה ע"י ראש הישיבה הרב זלמן מלמד שליט"א</itunes:summary>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<itunes:owner><itunes:name>ישיבת בית אל</itunes:name><itunes:email>nihulybetube@gmail.com</itunes:email></itunes:owner>
+<itunes:image href="https://nihulybetube.github.io/ybe-podcast/bmsylt-yshrym/cover.jpg"/>
+<image><url>https://nihulybetube.github.io/ybe-podcast/bmsylt-yshrym/cover.jpg</url><title>שיעורים במסילת ישרים | ראש הישיבה הרב זלמן מלמד</title><link>https://nihulybetube.github.io/ybe-podcast</link></image>
+<itunes:category text="Religion &amp; Spirituality"><itunes:category text="Judaism"/></itunes:category>
+<item>
+<title>1. חובת האדם בעולמו | שיעורים במסילת ישרים, הקדמה ופרק א' | הרה"ג זלמן ברוך מלמד</title>
+<description><![CDATA[תולדות הרמח"ל; יראת ה' היא חכמה; שתי מגמות בעבודת האדם בעולם הזה - הפרטית והכללית
+
+לצפייה בשיעור ביוטיוב: https://www.youtube.com/watch?v=ao5XgkpFWus
+
+---
+מעכשיו אנחנו גם בספוטיפיי! חפשו אותנו: ישיבת בית אל.]]></description>
+<guid isPermaLink="false">ao5XgkpFWus</guid>
+<pubDate>Wed, 25 Nov 2026 16:00:07 +0000</pubDate>
+<enclosure url="https://github.com/nihulybetube/ybe-podcast/releases/download/bmsylt-yshrym-audio/ao5XgkpFWus.mp3" length="20242583" type="audio/mpeg"/>
+<itunes:duration>2530</itunes:duration>
+<itunes:image href="https://nihulybetube.github.io/ybe-podcast/bmsylt-yshrym/covers/ao5XgkpFWus.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+<itunes:episodeType>full</itunes:episodeType>
+</item>
+</channel>
+</rss>
