@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>תניא ונפש החיים | הרב זלמן ברוך מלמד שליט"א</title>
+<link>https://nihulybetube.github.io/ybe-podcast</link>
+<atom:link href="https://nihulybetube.github.io/ybe-podcast/tnya-onpsh/feed.xml" rel="self" type="application/rss+xml"/>
+<description>סדרת שיעורים מאת ראש הישיבה הרב זלמן, סביב הנושאים המרכזיים בספרי התניא ונפש החיים, וסביב נקודות החילוק ביניהם.</description>
+<language>he</language>
+<copyright>ישיבת בית אל</copyright>
+<itunes:author>ישיבת בית אל</itunes:author>
+<itunes:summary>סדרת שיעורים מאת ראש הישיבה הרב זלמן, סביב הנושאים המרכזיים בספרי התניא ונפש החיים, וסביב נקודות החילוק ביניהם.</itunes:summary>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<itunes:owner><itunes:name>ישיבת בית אל</itunes:name><itunes:email>nihulybetube@gmail.com</itunes:email></itunes:owner>
+<itunes:image href="https://nihulybetube.github.io/ybe-podcast/tnya-onpsh/cover.jpg"/>
+<image><url>https://nihulybetube.github.io/ybe-podcast/tnya-onpsh/cover.jpg</url><title>תניא ונפש החיים | הרב זלמן ברוך מלמד שליט"א</title><link>https://nihulybetube.github.io/ybe-podcast</link></image>
+<itunes:category text="Religion &amp; Spirituality"><itunes:category text="Judaism"/></itunes:category>
+</channel>
+</rss>
