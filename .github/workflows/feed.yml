@@ -40,6 +40,12 @@ jobs:
             echo "no changes"
           else
             git commit -m "עדכון רשימת הפרקים"
-            git push
+            # Someone else may have pushed to main while we were building: sync first, retry a few times.
+            for attempt in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "push failed (attempt $attempt), retrying..."
+              sleep 5
+            done
+            git diff --quiet origin/main HEAD || { echo "push did not succeed"; exit 1; }
             gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
           fi
