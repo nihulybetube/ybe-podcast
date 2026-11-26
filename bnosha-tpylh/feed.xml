@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>שיעורים בנושא תפילה | ישיבת בית אל</title>
+<link>https://nihulybetube.github.io/ybe-podcast</link>
+<atom:link href="https://nihulybetube.github.io/ybe-podcast/bnosha-tpylh/feed.xml" rel="self" type="application/rss+xml"/>
+<description>שיעורים בנושא התפילה, מפי רבני הישיבה השונים.</description>
+<language>he</language>
+<copyright>ישיבת בית אל</copyright>
+<itunes:author>ישיבת בית אל</itunes:author>
+<itunes:summary>שיעורים בנושא התפילה, מפי רבני הישיבה השונים.</itunes:summary>
+<itunes:explicit>false</itunes:explicit>
+<itunes:type>episodic</itunes:type>
+<itunes:owner><itunes:name>ישיבת בית אל</itunes:name><itunes:email>nihulybetube@gmail.com</itunes:email></itunes:owner>
+<itunes:image href="https://nihulybetube.github.io/ybe-podcast/bnosha-tpylh/cover.jpg"/>
+<image><url>https://nihulybetube.github.io/ybe-podcast/bnosha-tpylh/cover.jpg</url><title>שיעורים בנושא תפילה | ישיבת בית אל</title><link>https://nihulybetube.github.io/ybe-podcast</link></image>
+<itunes:category text="Religion &amp; Spirituality"><itunes:category text="Judaism"/></itunes:category>
+<item>
+<title>סודות התפילה | הרה"ג זלמן ברוך מלמד שליט"א</title>
+<description><![CDATA[בשיעור זה מעמיק הרב ביסודות של "דברים שבקדושה" הנאמרים בתפילה בעשרה. השיעור פותח בפסקי השולחן ערוך והרמ"א לגבי הזמן הנכון לחליצת תפילין (לאחר קדושת "ובא לציון"), ומסביר את הטעם הפנימי לכך שאנו עטורים בתפילין בשעת קריאת שמע כעדות אמת וכקבלת עול מלכות שמים שלמה.
+
+בהמשך, השיעור סוקר שורת נושאים מרתקים במבנה התפילה:
+
+התפקיד והמשמעות של "קדיש תתקבל".
+
+ההדרכה הנכונה לשליח ציבור (חזן) במהלך ברכת כהנים.
+
+המשמעות העמוקה מאחורי אמירת "ברכו את ה' המבורך" ואמירת "שמע ישראל".
+
+ההבדל המהותי בין קדושת המלאכים בעולמות העליונים לבין קדושת בני ישראל בעולם הזה.
+
+ההבדלים בין נוסח אשכנז לספרד בקדושת מוסף ("כתר" מול "נעריצך").
+
+שיעור חובה לכל מי שרוצה להבין את המילים שהוא אומר מדי יום בתפילה ולהתחבר למשמעות הפנימית של עמידה מול בורא עולם.
+
+חלוקה לפרקים
+00:00 - פתיחה: דברים שבקדושה וזמן חליצת תפילין (שו"ע, רמ"א והגר"א)
+
+02:46 - למה לא חולצים תפילין לפני "ובא לציון"? (קריאת שמע כעדות אמת)
+
+04:40 - קדיש תתקבל: החתימה האמיתית של תפילת שמונה עשרה
+
+07:47 - ברכת כהנים: הטעות הנפוצה וההדרכה לשליח הציבור
+
+09:30 - חשיבות אמירת קדושת "יוצר" ו"ובא לציון" יחד עם הציבור
+
+11:08 - סוד הברכה: המשמעות העמוקה של אמירת "ברכו"
+
+15:35 - "שמע ישראל" וקבלת עול מלכות שמים מוחלטת
+
+18:20 - קדושת המלאכים מול קדושת בני אדם: ההבדל המהותי
+
+20:00 - המשמעות האמיתית של הקדיש ("יתגדל ויתקדש שמה רבא")
+
+22:07 - ייחודה של קדושת "ובא לציון" (קדושה דסידרא)
+
+25:00 - קדושת מוסף: ההבדל בין "כתר" ל"נעריצך" והמשמעות הרעיונית
+
+לצפייה בשיעור ביוטיוב: https://www.youtube.com/watch?v=I7KznL1hG-s
+
+---
+מעכשיו אנחנו גם בספוטיפיי! חפשו אותנו: ישיבת בית אל.]]></description>
+<guid isPermaLink="false">I7KznL1hG-s</guid>
+<pubDate>Wed, 25 Nov 2026 23:00:08 +0000</pubDate>
+<enclosure url="https://github.com/nihulybetube/ybe-podcast/releases/download/bnosha-tpylh-audio/I7KznL1hG-s.mp3" length="18103195" type="audio/mpeg"/>
+<itunes:duration>2263</itunes:duration>
+<itunes:image href="https://nihulybetube.github.io/ybe-podcast/bnosha-tpylh/covers/I7KznL1hG-s.jpg"/>
+<itunes:explicit>false</itunes:explicit>
+<itunes:episodeType>full</itunes:episodeType>
+</item>
+</channel>
+</rss>
